@@ -27,25 +27,25 @@
 <body>
     <nav>
         <div class="nav-wrapper blue-grey lighten-2">
-            <a href="#!" class="brand-logo">Aaron Arndt Developer</a>
+            <a href="#!" class="brand-logo">Aaron Arndt</a>
             <ul class="right hide-on-med">
                 <li>
-                    <a href="#">
+                    <a href="#about">
                         <i class="material-icons left">account_circle</i>About</a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#projects">
                         <i class="material-icons left">developer_board</i>Projects</a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#contact">
                         <i class="material-icons left">chat</i>Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div class="intro">
+    <div id="about" class="intro">
         <div class="row">
             <div class="col s4">
                 <img class="responsive-img circle" src="assets/aaron.arndt.jpg" alt="profile picture">
@@ -113,7 +113,7 @@
 
     </div>    <!-- INTRO SECTION -->
 
-    <div class="projects row">
+    <div id="projects" class="projects row">
         <div class="col s12">
             <h1>Projects</h1>
             <div class="divider"></div>
@@ -126,67 +126,77 @@
                     <img class="activator proj-img" src="assets/GOT.jpg">
                 </div>
                 <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Card Title
+                    <span class="card-title activator grey-text text-darken-4">Game of Thrones Trivia
                         <i class="material-icons right">more_vert</i>
                     </span>
                     <p>
-                        <a href="#">This is a link</a>
+                        Deployed Game: <a href="https://aarona05.github.io/GoT-Trivia/" target="#">Link</a>
                     </p>
                     <p>
-                        <a href="#">This is a link</a>
+                        GitHub Repo: <a href="https://github.com/AaronA05/GoT-Trivia" target="#">Link</a>
                     </p>
                 </div>
                 <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Card Title
+                    <span class="card-title grey-text text-darken-4">Game of Thrones Trivia
                         <i class="material-icons right">close</i>
                     </span>
-                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    <p>This is a fun and simple trivia game based on the popular HBO show, Game of Thrones.
+                        The application was built with HTML, CSS, Javascript, and jQuery. 
+                        The styling is created with Bootstrap and gameplay is maintained by Javascript and setTimeOut functions.</p>
+                    <p>I was the sole developer of this application.</p>
                 </div>
             </div>
         </div>
         <div class="col s4">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator proj-img" src="assets/Checkers.png">
+                    <img class="activator proj-img" src="assets/Checkers.jpg">
                 </div>
                 <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Card Title
+                    <span class="card-title activator grey-text text-darken-4">Check Your Checkers
                         <i class="material-icons right">more_vert</i>
                     </span>
                     <p>
-                        <a href="#">This is a link</a>
+                        Deployed Site: <a href="https://checkyourcheckers.herokuapp.com/" target="#">Link</a>
                     </p>
                     <p>
-                        <a href="#">This is a link</a>
+                        GitHub Repo: <a href="https://github.com/sranney/checkers">Link</a>
                     </p>
                 </div>
                 <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Card Title
+                    <span class="card-title grey-text text-darken-4">Check Your Checkers
                         <i class="material-icons right">close</i>
                     </span>
-                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    <p>Check Your Checkers is a full MERN application utilizing Socket.io for real-time game play and chat functionality.
+                        Front-end is styled using Materialize CSS. User authentication managed with Firebase. Persistent game functionality and chat history
+                        maintained with a NoSQL database, Mongoose.</p>
+                    <p>I was the lead game functionality developer for this application responsible for set-up and control of game movements.</p>
                 </div>
             </div>
         </div>
         <div class="col s4">
             <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator proj-img" src="assets/bamazon.png">
+                    <img class="activator proj-img" src="assets/bamazon.jpg">
                 </div>
                 <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Card Title
+                    <span class="card-title activator grey-text text-darken-4">Bamazon CLI
                         <i class="material-icons right">more_vert</i>
                     </span>
-                    <p>
-                        <a href="#">This is a link</a>
-                    </p>
                     <p>Application run on terminal/command line.</p>
+                    <p>
+                        GitHub Repo: <a href="https://github.com/AaronA05/Bamazon-CLI-Marketplace" target="#">Link</a>
+                    </p>
+                    
                 </div>
                 <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Card Title
+                    <span class="card-title grey-text text-darken-4">Bamazon CLI
                         <i class="material-icons right">close</i>
                     </span>
-                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    <p>Bamazon CLI utilizes Node.js and MySQL database to create a simple, easy to use command line application.
+                        This application allows shoppers to browse a digitial stores shelves, place an order, and purchase items.
+                        It also allows managers to add more items to stock or add entirely new item to the stores shelves.</p>
+                    <p>I was the sole developer for this application.</p>
                 </div>
             </div>
         </div>
@@ -198,7 +208,7 @@
 
 </body>
 
-    <footer class="page-footer blue-grey darken-3">
+    <footer id="contact" class="page-footer blue-grey darken-3">
             <div class="row">
                 <div class="col s8">
                     <h5 class="white-text">Aaron Arndt</h5>
