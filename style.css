@@ -1,0 +1,27 @@
+  html, body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .page-footer{
+      margin-top: 200px;
+  }
+
+  i.fa-6 {
+      font-size: 40px;
+  }
+
+  i.myIcons{
+      font-size: 80px;
+      color: #b0bec5 ;
+  }
+
+  .intro{
+      margin-top: 30px;
+  }
+
+  img.proj-img{
+      height: 300px;
+  }
