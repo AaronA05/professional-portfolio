@@ -25,3 +25,18 @@
   img.proj-img{
       height: 300px;
   }
+
+
+  @media screen and (max-width: 640px){
+    i.myIcons{
+        font-size: 40px;
+        color: #b0bec5 ;
+    }
+    .intro{
+        margin-top: 1px;
+    }
+    .collapsible{
+        width: 100%;
+    }
+
+  }
