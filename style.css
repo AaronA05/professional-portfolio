@@ -5,6 +5,14 @@
     margin: 0;
   }
 
+  h1{
+    font-family: 'Bitter', serif;
+  }
+
+  h2,h3,h4,h5,h6,p{
+    font-family: 'Open Sans', sans-serif;
+  }
+
   .page-footer{
       margin-top: 100px;
   }
@@ -33,6 +41,24 @@
     border-bottom-left-radius: 10%;
   }
 
+  .parallax-container {
+    height: 700px !important;
+  }
+
+  .parallax-container>h1{
+    color: white;
+    text-shadow: 2px 2px 5px black;
+  }
+
+  h3{
+    color: white;
+    text-shadow: 2px 2px 5px black;
+
+  }
+
+  .about-div, .work-div{
+    border-right: 1px solid white;
+  }
 
   @media screen and (max-width: 640px){
     i.myIcons{
