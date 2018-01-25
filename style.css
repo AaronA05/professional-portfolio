@@ -2,7 +2,15 @@
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    margin: 0;
+    margin: 0;   
+  }
+
+  #about, #project-all{
+    background-image: url('assets/cheap_diagonal_fabric.png');
+  }
+
+  #project-all{
+    padding-bottom: 50px;
   }
 
   h1{
@@ -13,21 +21,13 @@
     font-family: 'Open Sans', sans-serif;
   }
 
-  .page-footer{
-      margin-top: 100px;
-  }
-
   i.fa-6 {
       font-size: 40px;
   }
 
   i.myIcons{
       font-size: 80px;
-      color: #b0bec5 ;
-  }
-
-  .intro{
-      margin-top: 30px;
+      color: #909ba0;
   }
 
   img.proj-img{
@@ -39,6 +39,7 @@
     border-top-right-radius: 10%;
     border-bottom-right-radius: 10%;
     border-bottom-left-radius: 10%;
+    margin-top: 30px;
   }
 
   .parallax-container {
@@ -63,10 +64,7 @@
   @media screen and (max-width: 640px){
     i.myIcons{
         font-size: 40px;
-        color: #b0bec5 ;
-    }
-    .intro{
-        margin-top: 1px;
+        color: #909ba0;
     }
     .collapsible{
         width: 100%;
